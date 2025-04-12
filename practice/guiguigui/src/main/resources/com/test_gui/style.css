@@ -1,0 +1,56 @@
+.root {
+    -fx-background-color: #0D1B2A;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 14px;
+}
+
+/* Neon Blue Highlights */
+.label {
+    -fx-text-fill: #3FC1C9;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: #00FFFF;
+    -fx-text-fill: #00FFFF;
+    -fx-border-radius: 4;
+    -fx-padding: 8 16;
+    -fx-font-size: 14px;
+}
+
+.button:hover {
+    -fx-background-color: #1B263B;
+}
+
+.button:pressed {
+    -fx-background-color: #112233;
+}
+
+/* Enlarge Menu Buttons and Menu Column */
+#menuPane {
+    -fx-padding: 30;
+}
+
+.menu-button {
+    -fx-font-size: 18px;
+    -fx-padding: 10 20;
+    -fx-min-height: 45;
+}
+
+/* TableView borders and style */
+.table-view {
+    -fx-background-color: #0D1B2A;
+    -fx-border-color: #00FFFF;
+    -fx-border-width: 2px;
+    -fx-table-cell-border-color: #1B263B;
+}
+
+.table-column {
+    -fx-alignment: CENTER_LEFT;
+}
+
+.highlighted-table {
+    -fx-border-color: #00FFFF;
+    -fx-border-width: 2;
+    -fx-border-radius: 6;
+}
